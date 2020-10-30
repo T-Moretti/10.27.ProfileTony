@@ -1,0 +1,70 @@
+/* General Styling */ 
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+main  .wrapper  h2 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.image-circle {
+    border-radius: 50%; /* cropped the picture into a circle */
+}
+
+section.bg-callout {   
+   padding: 60px 0;
+   background-color: lightgray;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/*  */
+.top {
+  background-color: rgb(73, 73, 73);
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+.intro {
+  font-size: 26px;
+  padding-top: 20px;
+  color: rgb(75, 63, 63)
+}
+/* Groups & Items */
+
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+/*  */
+
+@media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/*  */
+/*  */
